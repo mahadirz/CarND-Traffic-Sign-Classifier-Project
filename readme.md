@@ -30,6 +30,7 @@ The goals / steps of this project are the following:
 [3]: ./writeup_images/3.png "3"
 [4]: ./writeup_images/4.png "4"
 [5]: ./writeup_images/5.png "5"
+[diverge]: ./writeup_images/diverge.png "diverge"
 
 ### Data Set Summary & Exploration
 
