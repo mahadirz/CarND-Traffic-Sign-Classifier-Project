@@ -304,4 +304,16 @@ The actual image is a Road work. The top five soft max probabilities are
 
 ![alt text][5]
 
+### Conclusions
+
+The model can be improved further by revisiting particularly model architecture and image preprocessing. On
+the preprocessing it's possible to increase the class that has little example by augmentation such as described in 
+[Keras imagedatagenerator](https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/).
+
+Besides that, I don't spend much time on iterating on the model architecture. The simple tweak of replacing the max pooling
+layer with convolutional is able to achieve the minimum accuracy but it's not able to generalize well on internet images
+this might be an indicator the model might under perform in real world where noises such as 
+under various lightning conditions and different angles are unavoidable.
+
+
 
